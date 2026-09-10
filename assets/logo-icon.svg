@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" fill="none" width="100%" height="100%">
+  <defs>
+    <linearGradient id="iconLeftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2444"/>
+      <stop offset="40%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="iconRightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#00A3FF"/>
+    </linearGradient>
+    <linearGradient id="iconHighlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF"/>
+      <stop offset="60%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#0033AA"/>
+    </linearGradient>
+    <linearGradient id="iconSwoosh" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="45%" stop-color="#38BDF8"/>
+      <stop offset="75%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#0080FF"/>
+    </linearGradient>
+    <linearGradient id="px1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="px2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+    <linearGradient id="px3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="px4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C6FF"/>
+      <stop offset="100%" stop-color="#0044CC"/>
+    </linearGradient>
+    <filter id="iconDropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#0F172A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(10, 8)" filter="url(#iconDropShadow)">
+    <!-- Pixel Cubes -->
+    <rect x="36" y="38" width="13" height="13" rx="2" fill="url(#px1)" transform="skewX(-14)"/>
+    <rect x="53" y="35" width="14" height="14" rx="2" fill="url(#px2)" transform="skewX(-14)"/>
+    <rect x="71" y="31" width="16" height="16" rx="2.5" fill="url(#px3)" transform="skewX(-14)"/>
+    <rect x="91" y="27" width="22" height="22" rx="3" fill="url(#px4)" transform="skewX(-14)"/>
+
+    <rect x="44" y="54" width="15" height="15" rx="2" fill="url(#px1)" transform="skewX(-14)"/>
+    <rect x="63" y="52" width="17" height="17" rx="2.5" fill="url(#px2)" transform="skewX(-14)"/>
+    <rect x="84" y="51" width="30" height="30" rx="3.5" fill="url(#px4)" transform="skewX(-14)"/>
+
+    <rect x="58" y="73" width="16" height="16" rx="2.5" fill="url(#px2)" transform="skewX(-14)"/>
+    <rect x="78" y="74" width="24" height="24" rx="3" fill="url(#px3)" transform="skewX(-14)"/>
+
+    <!-- Right Leg of H -->
+    <path d="M165 36 L198 36 L164 164 L131 164 Z" fill="#0B192C"/>
+    <path d="M168 36 L195 36 L161 164 L134 164 Z" fill="url(#iconRightGrad)"/>
+    <path d="M148 110 L195 36 L178 36 L138 124 Z" fill="#00D2FF" opacity="0.6"/>
+
+    <!-- Crossbar -->
+    <path d="M96 90 L166 90 L156 122 L86 122 Z" fill="#0B192C"/>
+    <path d="M98 92 L163 92 L154 120 L89 120 Z" fill="url(#iconHighlight)"/>
+
+    <!-- Left Leg of H -->
+    <path d="M92 56 L128 56 L94 164 L58 164 Z" fill="#071326"/>
+    <path d="M95 56 L124 56 L90 164 L61 164 Z" fill="url(#iconLeftGrad)"/>
+    <path d="M95 56 L108 56 L74 164 L61 164 Z" fill="url(#iconHighlight)"/>
+
+    <!-- Bottom 3D Base -->
+    <polygon points="61,164 90,164 80,172 51,172" fill="#0066FF" opacity="0.8"/>
+    <polygon points="134,164 161,164 153,172 126,172" fill="#0088FF" opacity="0.8"/>
+
+    <!-- Orbital Swoosh -->
+    <path d="M 24 136 C 18 155, 34 172, 68 168 C 105 163, 150 134, 218 68 C 172 108, 114 142, 68 144 C 42 145, 29 138, 24 136 Z" fill="url(#iconSwoosh)"/>
+    <path d="M 28 139 C 38 158, 75 158, 126 138 C 174 118, 204 88, 218 68 C 200 88, 162 120, 118 135 C 72 150, 40 148, 28 139 Z" fill="#FFFFFF" opacity="0.9"/>
+  </g>
+</svg>
